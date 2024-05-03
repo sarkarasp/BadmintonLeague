@@ -1,0 +1,16 @@
+.nav-logo {
+    width: 55px;
+    height: 55px;    
+    border-radius: 1rem;
+}
+
+.brand-logo-header {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 100px;
+    margin-left: 10px;
+    font-style: italic;
+}
+.custom-navbar {
+    background-color: #084298;
+}
