@@ -8,6 +8,7 @@ import { MatchesComponent } from './matches/matches.component';
 import { TeamsComponent } from './teams/teams.component';
 import { PointTableComponent } from './point-table/point-table.component';
 import { PlayerInfoComponent } from './player-info/player-info.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PlayerInfoComponent } from './player-info/player-info.component';
     AppRoutingModule
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
   ],
   bootstrap: [AppComponent]
 })

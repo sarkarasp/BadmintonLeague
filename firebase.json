@@ -1,10 +1,11 @@
 {
   "hosting": {
-    "public": "diat/badminton-gme",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "public": "dist/badminton-gme",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
