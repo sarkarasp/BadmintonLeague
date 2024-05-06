@@ -1,11 +1,10 @@
 {
   "hosting": {
-    "public": "dist/badminton-gme",
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
+    "public": "dist\\badminton-gme",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
     ]
   }
 }
