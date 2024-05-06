@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "/dist/badminton-gme/",
+    "public": "dist/badminton-gme/",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,7 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/dist/index.html"
+        "destination": "dist/index.html"
       }
     ]
     
