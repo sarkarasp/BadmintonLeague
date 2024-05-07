@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/badminton-gme/",
+    "public": "dist/badminton-gme/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
