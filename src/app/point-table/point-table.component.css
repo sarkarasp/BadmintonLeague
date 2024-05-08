@@ -4,3 +4,7 @@
   .point-table th, .point-table td {
     text-align: center;
   }
+
+  .bg-img {
+    background-image: url("../../assets/images/BGPage.jpg");
+  }

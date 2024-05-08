@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './player-info.component.css'
 })
 export class PlayerInfoComponent {
+  editEmployeeClicked(){
 
+  }
+  deleteEmployeeClicked(){
+    
+  }
 }

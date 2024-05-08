@@ -1,6 +1,13 @@
 main {
    
-    margin: 3rem auto 0px; 
+   margin: 3rem auto 0px;     
+   /* background-image: url("../assets/images/bgNew.jpg"); */
+   height: 650px;
+  color: black;
+  background-size: 50%;
+  background-size: cover;
+
+  
 }
 
 /* .toolbar {
